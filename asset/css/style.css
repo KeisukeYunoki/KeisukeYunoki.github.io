@@ -35,6 +35,10 @@
     margin: 0;           
 }
 
+.header_nav_list-item {
+    cursor: pointer;
+}
+
 .aboutList {
     list-style: none;
     padding-left: 0;
