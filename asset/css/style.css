@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainHeader {
+    color: white;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-size: 25px;
+}
+.pageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+}
+
+.headerLeft {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.headerRight {
+    display: block;
+    padding-right: 10px;
+}
+
+.header_nav_list {
+    display: flex;       
+    display: flex;       
+    gap: 24px;           
+    list-style: none;    
+    padding: 0;          
+    margin: 0;           
+}
+
+.aboutList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.welcome {
+    background-image: url("../img/tokyostation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-text {
+    font-size: 80px;
+}
+
